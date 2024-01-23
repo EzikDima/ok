@@ -60,21 +60,21 @@ function func6() {
 document.getElementById("btn7").addEventListener("click", func7);
 
 function func7() {
-    var tr = document.createElement("tr");
-    var text = document.createTextNode("Это tr7");
+    let tr = document.createElement("tr");
+    let text = document.createTextNode("Это tr7");
     tr.appendChild(text);
   
-    var div7 = document.getElementById("div7");
+    let div7 = document.getElementById("div7");
     div7.appendChild(tr);
   }
   document.getElementById("btn8").addEventListener("click", func8);
 
   function func8() {
-    var td = document.createElement("td");
-    var text = document.createTextNode("Это td8");
+    let td = document.createElement("td");
+    let text = document.createTextNode("Это td8");
     td.appendChild(text);
   
-    var div8 = document.getElementById("div8");
+    let div8 = document.getElementById("div8");
     div8.appendChild(td);
   }
 
@@ -82,16 +82,16 @@ function func7() {
   document.getElementById("btn9").addEventListener("click", func9);
 
 function func9() {
-  var h = document.createElement("H1");
-  var t = document.createTextNode("Это h19");
+  let h = document.createElement("H1");
+  let t = document.createTextNode("Это h19");
   h.appendChild(t);
   document.getElementById("div9").appendChild(h);
 }
 document.getElementById("btn10").addEventListener("click", func10);
 
 function func10() {
-  var s = document.createElement("SPAN");
-  var t = document.createTextNode("Это span10");
+  let s = document.createElement("SPAN");
+  let t = document.createTextNode("Это span10");
   s.appendChild(t);
   document.getElementById("div10").appendChild(s);
 }
